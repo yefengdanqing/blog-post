@@ -14,8 +14,18 @@ typora-root-url: ..\img
 roas:return on ad spend
 
 - roas = 变现总收入 / 推广的总支出
+
 - iaa是应用内广告变现，iap是应用内付费变现in-app-adversting和in-app-purchase
+
 - IAA：广告变现，用户免费使用所有功能，但在使用过程中需要观看广告(看广告来增加b;IAP：纯付费变现，比如订阅会员付费或者游戏充值
+
+- pcoc = pltv / ltv ，pltv 是模型预估的，ltv 是真实的，表示模型是高估还是低估
+
+  分层pcoc，就是在上边的基础上 对ltv 做分层，比如 0-1，1-2  看不同分层的pcoc，目的是看是普遍高估还是在某些分层高估
+
+  浅层就是 ivr 广学他们组，深层就是 roas；
+
+  主要是建模的目标不一样，一个是建模安装率，一个是建模安装之后的价值，对应到mtg的产品就不一样
 
 #### 举例
 

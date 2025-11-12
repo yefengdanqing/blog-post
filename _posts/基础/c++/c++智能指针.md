@@ -9,6 +9,24 @@ categories:
 typora-root-url: ..\img
 ---
 
+
+
+// 使用 new + shared_ptr
+std::shared_ptr<Foo> p1(new Foo(args));
+
+// 使用 make_shared
+std::shared_ptr<Foo> p2 = std::make_shared<Foo>(args);
+
+| 比较项         | `new` + `shared_ptr`                        | `std::make_shared`               |
+| -------------- | ------------------------------------------- | -------------------------------- |
+| ✅ **性能**     | 需要分配两次内存（对象本体+引用计数）       | 一次内存分配，效率更高           |
+| ✅ **安全性**   | 容易内存泄漏（特别是裸指针传入 shared_ptr） | 类型安全，避免资源泄漏           |
+| ✅ **异常安全** | 构造对象后异常可能泄漏内存                  | 构造和绑定引用计数是一体的，安全 |
+| ✅ **可读性**   | 构造语义不清晰，代码容易冗长                | 简洁、清晰                       |
+| ✅ **灵活性**   | 可以自定义 deleter、使用数组等              | 不支持数组，deleter 不可定制     |
+
+
+
 enbale_shared_from_this是一个模板类，std::enable_shared_from_this 能让其一个对象（假设其名为 t ，且已被一个 std::shared_ptr 对象 pt 管理）安全地生成其他额外的 std::shared_ptr 实例（假设名为 pt1, pt2, … ） ，它们与 pt 共享对象 t 的所有权。为什么要用 `enable_shared_from_this`？
 
 什么时候使用enable_shared_from_this

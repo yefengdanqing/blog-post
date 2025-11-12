@@ -15,18 +15,18 @@ typora-root-url: ..\img
 
 # GraphDependencyBuilder
 
-![grc-GraphDependencyBuilder](/../../../../../工作图库/grc-GraphDependencyBuilder.jpg)
+![grc-GraphDependencyBuilder](https://raw.githubusercontent.com/yefengdanqing/picture_bed/master/grc-GraphDependencyBuilder.jpg)
 
 <!-- more -->
 
 # GraphEmitBuilder
 
-![grc-GraphEmitBuilder](/../../../../../工作图库/grc-GraphEmitBuilder.jpg)
+![grc-GraphEmitBuilder](https://raw.githubusercontent.com/yefengdanqing/picture_bed/master/grc-GraphEmitBuilder.jpg)
 
 # GraphVertexBuilder
 
-![grc-GraphVertexBuilder](/../../../../../工作图库/grc-GraphVertexBuilder.jpg)
+![grc-GraphVertexBuilder](https://raw.githubusercontent.com/yefengdanqing/picture_bed/master/grc-GraphVertexBuilder.jpg)
 
 # GraphBuilder
 
-![grc-GraphBuilder](/../../../../../工作图库/grc-GraphBuilder.jpg)
+![grc-GraphBuilder](https://raw.githubusercontent.com/yefengdanqing/picture_bed/master/grc-GraphBuilder.jpg)

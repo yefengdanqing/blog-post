@@ -11,7 +11,7 @@ typora-root-url: ..\img
 
 # 整体
 
-
+recursive_activate是核心的执行流程。
 
 ![grc-类组织关系.drawio](/../../../../../工作图库/grc-类组织关系.drawio.svg)
 
